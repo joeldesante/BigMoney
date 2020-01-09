@@ -1,0 +1,25 @@
+name: BigMoney
+version: ${project.version}
+main: com.yooogle.bigmoney.BigMoney
+api-version: 1.15
+depend: [Vault]
+authors: [Yooogle]
+description: A money system for Hypernet Economy
+commands:
+  balance:
+    aliases: [bal, money]
+    description: Check an account balance
+    usage: /balance [player]
+  pay:
+    description: Pay other players ingame funds.
+    usage: /pay <player> <amount>
+permissions:
+  bigmoney.balance:
+    description: Allows one to check their balance.
+    default: true
+  bigmoney.balance.other:
+    description: Allows one to check anothers balance
+    default: op
+  bigmoney.pay:
+    description: Allows the user to pay another.
+    default: true

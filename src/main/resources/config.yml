@@ -1,0 +1,6 @@
+min-balance: 0.0
+initial-balance: 1000.0
+save-logs: true
+auto-save: true
+auto-save-delay: 600
+min-payment: 1.0
