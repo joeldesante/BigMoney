@@ -26,7 +26,7 @@ public class EconomyImplementor implements Economy {
 
     @Override
     public String getName() {
-        return "BigEconomy";
+        return "BigMoney";
     }
 
     @Override

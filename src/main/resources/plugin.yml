@@ -13,6 +13,15 @@ commands:
   pay:
     description: Pay other players ingame funds.
     usage: /pay <player> <amount>
+  addmoney:
+    description: Add money to a users account.
+    usage: /addmoney <player> <amount>
+  takemoney:
+    description: Add money to a users account.
+    usage: /takemoney <player> <amount>
+  setmoney:
+    description: Set a amount of money to a users account.
+    usage: /setmoney <player> <amount>
 permissions:
   bigmoney.balance:
     description: Allows one to check their balance.
@@ -23,3 +32,12 @@ permissions:
   bigmoney.pay:
     description: Allows the user to pay another.
     default: true
+  bigmoney.admin.addmoney:
+    description: Allows the user to add funds to a users account.
+    default: op
+  bigmoney.admin.takemoney:
+    description: Allows the user to remove funds from a users account.
+    default: op
+  bigmoney.admin.setmoney:
+    description: Allows the user to set a users accounts funds.
+    default: op

@@ -8,11 +8,14 @@ com/yooogle/bigmoney/vault/VaultHook.class
 com/yooogle/bigmoney/storage/Database.class
 com/yooogle/bigmoney/commands/Command.class
 com/yooogle/bigmoney/BigMoney.class
+com/yooogle/bigmoney/commands/SubtractMoney/SubtractMoneyCommand.class
 com/yooogle/bigmoney/account/AccountStatus.class
 com/yooogle/bigmoney/account/AccountManager$1.class
 com/yooogle/bigmoney/events/PlayerListener.class
+com/yooogle/bigmoney/commands/addmoney/AddMoneyCommand.class
 com/yooogle/bigmoney/commands/balance/BalanceCommand.class
 com/yooogle/bigmoney/account/Account.class
 com/yooogle/bigmoney/response/AccountResponse.class
+com/yooogle/bigmoney/commands/SetMoneyCommand/SetMoneyCommand.class
 com/yooogle/bigmoney/response/Response.class
 com/yooogle/bigmoney/utils/Util.class

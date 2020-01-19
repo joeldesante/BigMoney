@@ -1,4 +1,5 @@
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/account/AccountStatus.java
+/Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/commands/SetMoneyCommand/SetMoneyCommand.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/account/AccountManager.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/response/Response.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/vault/VaultHook.java
@@ -11,7 +12,9 @@
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/response/DatabaseResponse.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/storage/Database.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/events/PlayerListener.java
+/Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/commands/addmoney/AddMoneyCommand.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/response/AccountResponse.java
+/Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/commands/SubtractMoney/SubtractMoneyCommand.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/commands/balance/BalanceCommand.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/account/Account.java
 /Users/yooogle/IdeaProjects/BigMoney/src/main/java/com/yooogle/bigmoney/utils/Util.java

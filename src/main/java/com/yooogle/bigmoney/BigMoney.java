@@ -1,6 +1,8 @@
 package com.yooogle.bigmoney;
 
 import com.yooogle.bigmoney.account.AccountManager;
+import com.yooogle.bigmoney.commands.SubtractMoney.SubtractMoneyCommand;
+import com.yooogle.bigmoney.commands.addmoney.AddMoneyCommand;
 import com.yooogle.bigmoney.commands.balance.BalanceCommand;
 import com.yooogle.bigmoney.commands.pay.PayCommand;
 import com.yooogle.bigmoney.events.PlayerListener;
@@ -51,6 +53,10 @@ public final class BigMoney extends JavaPlugin {
         // Setup Commands
         new BalanceCommand(this);
         new PayCommand(this);
+
+        // Admin Commands
+        new AddMoneyCommand(this);
+        new SubtractMoneyCommand(this);
 
     }
 
