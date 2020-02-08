@@ -5,6 +5,8 @@ api-version: 1.15
 depend: [Vault]
 authors: [Yooogle]
 description: A money system for Hypernet Economy
+loadbefore:
+  - Essentials
 commands:
   balance:
     aliases: [bal, money]

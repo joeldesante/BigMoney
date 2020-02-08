@@ -32,7 +32,7 @@ public final class BigMoney extends JavaPlugin {
         this.vaultHook.hook();
 
         // Setup Database
-        this.database = new Database(this.getDataFolder().getAbsolutePath() + "/test.db", this);
+        this.database = new Database(this.getDataFolder().getAbsolutePath() + "/accounts.db", this);
         this.database.init();
 
         // Setup Account Manager
